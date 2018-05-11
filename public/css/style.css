@@ -1,0 +1,294 @@
+body {
+	margin-top: 85px;
+	line-height: 24px;
+	font-size: 15px;
+	background: url("../../images/display-body.jpg");
+	background-size: cover; 
+	background-color: #206767;
+}
+
+/* header */
+
+.main-nav {
+	width: auto;
+}
+
+.navbar {
+	margin: 0 auto;
+	position: fixed;
+	-webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    padding: 10px 0px;
+    background: white;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+}
+
+.navbar-brand {
+	font-size: 40px;
+	color: #ff4500;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: 0px!important;
+}
+
+ul.navbar-nav a {
+	font-weight: 700;
+	font-size: 14px;
+	padding: 15px 0 15px 30px;
+	line-height: 34px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.nav > li > a:focus {
+	background: transparent !important; 
+}
+
+ul.navbar-nav > .active > a {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.nav > li > a:hover {
+    background: transparent;
+    position: relative;
+	overflow: hidden;
+}
+
+h2 {
+	text-align: center;
+}
+
+.computer {
+	padding: 37px;
+	background: #fafafa;
+}
+
+.computer h2 {
+	padding-bottom: 35px;
+	color: #22272F;
+}
+
+.computer p {
+	color: #22272F;
+	line-height: 1.5;
+	font-size: 16px;
+	text-align: justify;
+}
+
+.notebook {
+	background: #f9f9ff;
+	padding: 37px;
+}
+
+.zenbook {
+	background: #E7E7E7;
+	padding: 45px;
+	font-size: 15px;
+	color: #151F2F;
+	line-height: 1.5;
+}
+
+.zenbook h2 {
+	padding-left: 70px;
+	padding-bottom: 17px;
+	padding-top: 20px;
+}
+
+.zenbook p {
+	text-align: justify;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 22px;
+	color: #000000;
+	line-height: 1.6;
+	font-weight: 500;
+	font-size: 15px;
+}
+.zenbook img {
+	padding-left: 55px;
+	padding-top: 21px;
+}
+
+.notebook h2 {
+	padding-bottom: 35px;
+	color: #22272F;
+
+}
+
+.notebook p {
+	text-align: justify;
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+.tablet {
+	background: #F2F2FE;
+	padding: 37px;
+	border-radius: 3px;
+}
+
+.tablet p {
+	padding-top: 42px;
+	padding-bottom: auto;
+	padding-right: 37px;
+	text-align: justify;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.tablet h2 {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #22272F;
+}
+
+.center-block {
+	background: #f9f9f9;
+	color: #22272F;
+	padding: 37px;
+	line-height: 1.5;
+	font-size: 16px;
+	text-align: justify;
+}
+
+.block-six {
+	background: #ffffe5;
+	padding: 35px;
+}
+
+.border {
+	border: 2px solid #E7B042;
+	width: 80%;
+	height: 70%;
+	margin-bottom: 12px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bottom {
+	background-color: #f5f5f5; 
+	color: #22272F;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	padding-left: 37px;
+	padding-right: 30px;
+	text-align: justify;
+}
+
+.border-bottom {
+	width: 80%;
+	height: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Footer */
+#myfooter {
+	background: #22272f;
+	color: #ffffcf;
+	flex: 0 0 auto;
+	-webkit-flex: 0px 0px auto;
+	border: 3px 3px 0px 0px;
+	padding-top: 22px;
+	margin-top: -20px;
+
+}
+
+#myfooter .row {
+	margin-bottom: 20px;
+}
+
+#myfooter .navbar-brand {
+	margin-top: 47px;
+	height: 60px;
+}
+
+#myfooter ul {
+	list-style-type: none;
+	padding-left: 7px;
+	line-height: 1.7;
+}
+
+#myfooter h5 {
+	font-size: 18px;
+	color: white;
+	font-weight: 400;
+	margin-top: 24px;
+}
+
+#myfooter h2 a {
+	font-size: 35px;
+	text-align: center;
+	color: red;
+	padding-left: 35px;
+	padding-top: 35px;
+	text-decoration: none;
+}
+
+#myfooter a {
+	color: #e7b042;
+	text-decoration:  none;
+	font-size: 14;
+}
+
+#myfooter a:hover, #myfooter a:focus {
+	text-decoration: none;
+	color: #ffffdf;
+}
+
+#myfooter .social-icon {
+	text-align: center;
+	padding-top: 28px;
+	padding-bottom: 15px;
+}
+
+#myfooter .social-icon a {
+	font-size: 25px;
+	color: #f9f9f9;
+	padding: 8px;
+	transition: 0.3s;
+}
+
+#myfooter .social-icon a:hover {
+	text-decoration: none;
+}
+
+#myfooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myfooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myfooter .linkedin:hover {
+    color: #7896F0;
+}
+
+ .copyright {
+	background: #333333;
+	padding: 4px 0px;
+	text-align: center;
+}
+
+.copyright p {
+    margin: 5px;
+    color: white;
+}
+
+
+#myfooter .btn {
+	background: red;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	display: block;
+	margin: 0 auto;
+	width: 140px;
+	line-height: 24px;
+	margin-top: 7px;
+}
